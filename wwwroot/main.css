@@ -1,0 +1,69 @@
+/* JS disabled styles */  
+.no-js nav li:hover ul { display:block; }  
+   
+/*  base nav styles */  
+nav {  border-radius: 5px; -moz-border-radius: 5px; display:block; margin:0 auto 20px; border:1px solid #222; position:relative; background-color:#6a6a6a; font:16px Tahoma, Sans-serif; }  
+nav ul { border-radius: 5px; -moz-border-radius: 5px; padding:0; margin:0; }  
+nav li { position:relative; float:left; list-style-type:none; }  
+nav ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }  
+nav li a { display:block; padding:10px 20px; border-left:1px solid #999; border-right:1px solid #222; color:#eee; text-decoration:none; }  
+nav li a:focus { outline:none; text-decoration:underline; }  
+nav li:first-child a { border-left:none; }  
+nav li.last a { border-right:none; }  
+nav a span { display:block; float:rightright; margin-left:5px; }  
+nav ul ul { display:none; width:100%; position:absolute; left:0; background:#6a6a6a; }  
+nav ul ul li { float:none; }  
+nav ul ul a { padding:5px 10px; border-left:none; border-right:none; font-size:14px; }  
+nav ul ul a:hover { border-radius: 5px; -moz-border-radius: 5px; background-color:#555; }
+.Red{
+	background-color: Red;
+}
+.Orange{
+	background-color: Orange;
+}
+.Green{
+	background-color: Green;
+}
+table#map{
+	margin:0 auto;
+	border:1px solid #222;
+	background-color:#6a6a6a;
+	font:16px Tahoma, Sans-serif;
+	color:white;
+	float: center;
+}
+table{
+	border:1px solid #222;
+	background-color:#6a6a6a;
+	font:16px Tahoma, Sans-serif;
+	color:white;
+	float: left;
+}
+
+#logo{
+	display: block;
+	width:	150px;
+}
+label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: left;
+  
+}
+input {
+  display: inline-block;
+  float: left;
+}
+select {
+  display: inline-block;
+  float: left;
+}
+td#icp{
+  float: center;
+}
+
+a {
+  color: #000000;
+}
